@@ -1,0 +1,234 @@
+$base-color : #145c2a;
+$base-hover-button: #129238;
+$base-ligth-green: #129238;
+$text-color-green: #145c2a;
+$text-color-white: #fff;
+$text-color-paragraph : #000;
+$background-color-sub-header: #f7f7f7;
+$text-small: 1.2rem;
+$text-normal: 1.6rem;
+$text-medium: 1.8rem;
+$text-title: 2.2rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@mixin centerContent{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@mixin text($color, $size) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: $size;
+    color: $color;
+}
+
+@mixin socialMedia {
+    width: 2rem;
+    height: 2rem;
+}
+
+.header-top {
+    width: 100%;
+    background-color: $base-color;
+    
+    .menu{
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        @include centerContent();
+        
+        a {
+            @include text($text-color-white, $text-normal);
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: .5rem;
+            &:hover{
+                background-color: $base-hover-button;
+            }
+        }
+        img {
+            @include socialMedia();
+            color: $text-color-white;
+        }
+
+        .nav-menu{
+            width: auto;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            
+            a{
+                margin-right: 1.5rem;
+            }
+        }
+
+        .social-menu{
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            a{
+                margin-right: 1.5rem;
+                &:hover{
+                    background-color: $base-color;
+                }
+            }
+            a:last-child{
+                border-inline: 1px solid black;
+                padding-inline: 10px;
+                img{
+                    margin-right: .5rem;
+                }
+            }
+        }
+    }
+
+    .header-sub-top{
+        width: 100%;
+        height: 27rem;
+        display: flex;
+        background-color: $background-color-sub-header;
+        align-items: center;
+        @include centerContent();
+        
+
+        .header-container-logo-and-button{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            
+            
+
+            img  {
+                width: 55rem;
+            }
+        
+            a{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border: 1px solid $base-ligth-green;
+                padding: 2rem;
+                border-radius: 3rem;
+                @include text($base-ligth-green, $text-normal);
+                img{
+                    @include socialMedia();
+                    margin-left: auto;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.destasquesEbeneficios{
+    width: 80%;
+    margin-top: 5rem;
+    @include centerContent();
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+
+    aside{
+        
+    }
+
+    img{
+        border-radius: .5rem;
+    }
+
+    h3{
+        @include text($base-ligth-green, $text-title);
+        
+    }
+
+    h4{
+        @include text($text-color-green, $text-medium);
+        font-weight: bold;
+    }
+
+    p{
+        @include text($text-color-paragraph, $text-small);
+        margin-bottom: 3rem;
+    }
+
+    
+
+    .left-side-content{
+        width: 100%;
+        display: table;
+        margin-right: 1.5rem;
+        
+        .container-title{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            
+            
+            span{
+                @include text($base-ligth-green, $text-title);
+                
+            }
+        }
+        img{
+            width: 100%;
+            height: 59rem;
+    
+        }
+    
+
+    }
+
+    .container-beneficios{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 1.5rem;
+        
+        h3{
+            @include text($base-ligth-green, $text-title);
+            margin: 0;
+        }
+
+        a{
+            display: table;
+            align-items: center;
+            background-color: $base-ligth-green;
+            
+            border-radius: 30px;
+            @include text($text-color-white, $text-small);
+        }
+
+        .card-beneficios{
+            :last-child{
+                margin-top: 30px;
+            }
+        }
+        
+    }
+
+}

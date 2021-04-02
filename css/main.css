@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top {
+  width: 100%;
+  background-color: #145c2a;
+}
+
+.header-top .menu {
+  width: 100%;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-top .menu a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #fff;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem;
+}
+
+.header-top .menu a:hover {
+  background-color: #129238;
+}
+
+.header-top .menu img {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+}
+
+.header-top .menu .nav-menu {
+  width: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top .menu .nav-menu a {
+  margin-right: 1.5rem;
+}
+
+.header-top .menu .social-menu {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-top .menu .social-menu a {
+  margin-right: 1.5rem;
+}
+
+.header-top .menu .social-menu a:hover {
+  background-color: #145c2a;
+}
+
+.header-top .menu .social-menu a:last-child {
+  border-inline: 1px solid black;
+  padding-inline: 10px;
+}
+
+.header-top .menu .social-menu a:last-child img {
+  margin-right: .5rem;
+}
+
+.header-top .header-sub-top {
+  width: 100%;
+  height: 27rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f7f7f7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-top .header-sub-top .header-container-logo-and-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.header-top .header-sub-top .header-container-logo-and-button img {
+  width: 55rem;
+}
+
+.header-top .header-sub-top .header-container-logo-and-button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #129238;
+  padding: 2rem;
+  border-radius: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #129238;
+}
+
+.header-top .header-sub-top .header-container-logo-and-button a img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.destasquesEbeneficios {
+  width: 80%;
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.destasquesEbeneficios img {
+  border-radius: .5rem;
+}
+
+.destasquesEbeneficios h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #129238;
+}
+
+.destasquesEbeneficios h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #145c2a;
+  font-weight: bold;
+}
+
+.destasquesEbeneficios p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 3rem;
+}
+
+.destasquesEbeneficios .left-side-content {
+  width: 100%;
+  display: table;
+  margin-right: 1.5rem;
+}
+
+.destasquesEbeneficios .left-side-content .container-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.destasquesEbeneficios .left-side-content .container-title span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #129238;
+}
+
+.destasquesEbeneficios .left-side-content img {
+  width: 100%;
+  height: 59rem;
+}
+
+.destasquesEbeneficios .container-beneficios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+.destasquesEbeneficios .container-beneficios h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #129238;
+  margin: 0;
+}
+
+.destasquesEbeneficios .container-beneficios a {
+  display: table;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #129238;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.destasquesEbeneficios .container-beneficios .card-beneficios :last-child {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */
