@@ -258,6 +258,10 @@ a {
   height: 59rem;
 }
 
+.destasquesEbeneficios .right-side-content {
+  width: auto;
+}
+
 .destasquesEbeneficios .container-beneficios {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -296,5 +300,83 @@ a {
 
 .destasquesEbeneficios .container-beneficios .card-beneficios :last-child {
   margin-top: 30px;
+}
+
+.noticias .top-noticias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 2rem;
+}
+
+.noticias .top-noticias h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #129238;
+}
+
+.noticias .top-noticias a {
+  display: table;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #129238;
+  padding: .5rem .8rem;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.noticias .container-noticias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.noticias .single-noticia {
+  width: 30rem;
+  height: 30rem;
+}
+
+.noticias .single-noticia img {
+  width: 30rem;
+  height: 20rem;
+  border-radius: .5rem;
+}
+
+.noticias .single-noticia p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.noticias .single-noticia h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #145c2a;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
