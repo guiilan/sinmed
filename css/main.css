@@ -448,4 +448,196 @@ a {
   color: #000;
   margin-top: 1rem;
 }
+
+.banners-container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  z-index: 25;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banners-container .aside-left h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #129238;
+  margin-bottom: 3rem;
+}
+
+.banners-container .aside-left div {
+  border-radius: .8rem;
+  width: 70rem;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.banners-container .aside-left .container-tittle {
+  background-color: #145c2a;
+  width: 50%;
+  height: 7rem;
+  position: relative;
+  z-index: 2;
+  margin-left: 2rem;
+  opacity: 0.85;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banners-container .aside-left .container-tittle h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.banners-container .aside-left .container-text {
+  width: 50%;
+  height: 7rem;
+  position: relative;
+  z-index: 2;
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banners-container .aside-left .container-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #145c2a;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.banners-container .aside-left .container-text h3 span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.banners-container .aside-left .container-logo {
+  width: 50%;
+  height: 7rem;
+  position: relative;
+  z-index: 3;
+  margin-left: -3rem;
+}
+
+.banners-container .aside-left .container-logo img {
+  width: 9rem;
+  height: 7rem;
+  top: 0rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.banners-container .aside-left img {
+  position: absolute;
+  top: -5rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.banners-container .aside-rigth h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #129238;
+  margin-bottom: 3rem;
+}
+
+.banners-container .aside-rigth div {
+  border-radius: .8rem;
+  width: 70rem;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banners-container .aside-rigth div h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banners-container .aside-rigth .container {
+  background-color: #fff;
+  width: 45%;
+  height: 8rem;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banners-container .aside-rigth .container h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.banners-container .aside-rigth .container img {
+  width: 20rem;
+  height: 10rem;
+  top: -1rem;
+  z-index: 1;
+}
+
+.banners-container .aside-rigth img {
+  position: absolute;
+  top: -15rem;
+  width: 100%;
+  z-index: 1;
+}
 /*# sourceMappingURL=main.css.map */

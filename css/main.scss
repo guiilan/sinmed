@@ -334,3 +334,161 @@ a{
         }
     }
 }
+
+.banners-container {
+    width: 80%;
+    display: flex;
+    position: relative;
+    @include centerContent();
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    z-index: 25;
+    justify-content: space-between;
+
+    @mixin aside-text {
+        h3{
+            @include text($base-ligth-green, $text-title);
+            margin-bottom: 3rem;
+        }
+    }
+
+    @mixin div-proprietes{
+        width: 70rem;
+        height: 25rem;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .aside-left{
+
+        @include aside-text();
+
+
+        div{
+            border-radius: .8rem;
+            @include div-proprietes();
+        }
+
+        .container-tittle{
+            background-color: $base-color;
+            width: 50%;
+            height: 7rem;
+            position: relative;
+            z-index: 2;
+            margin-left: 2rem;
+            opacity: 0.85;
+            display: flex;
+            align-items: center;            
+
+            
+            h4{
+                @include text($text-color-white, $text-medium);
+                font-weight: bold;
+                margin-left: 1rem;
+            }
+        }
+
+        .container-text{
+            width: 50%;
+            height: 7rem;
+            position: relative;
+            z-index: 2;
+            margin-left: 2rem;
+            display: flex;
+            align-items: center;
+            
+            h3{
+                @include text($text-color-green, $text-medium);
+                font-weight: bold;
+                margin-left: 1rem;
+                
+                span{
+                    @include text($text-color-white, $text-medium);
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .container-logo{
+            width: 50%;
+            height: 7rem;
+            position: relative;
+            z-index: 3;
+            margin-left: -3rem;
+
+            
+            img{
+                width: 9rem;
+                height: 7rem;
+                top: 0rem;
+                width: 100%;
+                z-index: 1;
+            }
+        }
+
+
+        img{
+            position: absolute;
+            top: -5rem;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+
+    .aside-rigth{
+        
+        @include aside-text();
+
+
+        div{
+            border-radius: .8rem;
+            @include div-proprietes();
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h4{
+                @include text($text-color-white, $text-medium);
+                font-weight: bold;
+                margin-left: 1rem;
+                position: relative;
+                z-index: 2;
+                display: flex;
+            }
+            
+        }
+
+        .container{
+            background-color: $text-color-white;
+            width: 45%;
+            height: 8rem;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: center;  
+            justify-content: center;          
+
+            
+            h4{
+                @include text($text-color-white, $text-medium);
+                font-weight: bold;
+                margin-left: 1rem;
+            }
+
+            img{
+                width: 20rem;
+                height: 10rem;
+                top: -1rem;
+                z-index: 1;
+            }
+        }
+
+
+        img{
+            position: absolute;
+            top: -15rem;
+            width: 100%;
+            z-index: 1;
+            
+        }
+    }
+}
