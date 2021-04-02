@@ -154,7 +154,7 @@ a{
     flex-direction: row;
 
     aside{
-        
+        @include centerContent();
     }
 
     img{
@@ -163,12 +163,12 @@ a{
 
     h3{
         @include text($base-ligth-green, $text-title);
-        
     }
 
     h4{
         @include text($text-color-green, $text-medium);
         font-weight: bold;
+        margin-top: 1rem
     }
 
     p{
@@ -187,6 +187,7 @@ a{
             display: flex;
             justify-content: space-between;
             width: 100%;
+            margin-bottom: 3rem;
             
             
             span{
@@ -203,11 +204,16 @@ a{
 
     }
 
+    .right-side-content{
+
+    }
+
     .container-beneficios{
         display: flex;
         justify-content: space-between;
         width: 100%;
-        margin-left: 1.5rem;
+        align-items: center;
+        margin-bottom: 3rem;
         
         h3{
             @include text($base-ligth-green, $text-title);
@@ -218,7 +224,7 @@ a{
             display: table;
             align-items: center;
             background-color: $base-ligth-green;
-            
+            padding: .5rem .8rem ;
             border-radius: 30px;
             @include text($text-color-white, $text-small);
         }

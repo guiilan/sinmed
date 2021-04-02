@@ -194,6 +194,13 @@ a {
           flex-direction: row;
 }
 
+.destasquesEbeneficios aside {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .destasquesEbeneficios img {
   border-radius: .5rem;
 }
@@ -211,6 +218,7 @@ a {
   font-size: 1.8rem;
   color: #145c2a;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 .destasquesEbeneficios p {
@@ -235,6 +243,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .destasquesEbeneficios .left-side-content .container-title span {
@@ -257,7 +266,10 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  margin-left: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
 }
 
 .destasquesEbeneficios .container-beneficios h3 {
@@ -274,6 +286,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #129238;
+  padding: .5rem .8rem;
   border-radius: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
